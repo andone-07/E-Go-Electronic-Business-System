@@ -14,7 +14,7 @@
 
 **用户模块：**
 
-![image-20240229114321100](C:\Users\26797\AppData\Roaming\Typora\typora-user-images\image-20240229114321100.png)
+![image-20240229114321100](https://github.com/andone-07/E-Go-Electronic-Business-System/blob/master/image/image-20240229114321100.png)
 
 **购物车模块：**
 
