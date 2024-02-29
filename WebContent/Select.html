@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link href="../demo.css" rel="stylesheet" type="text/css" />
+
+    
+    <script src="scripts/boot.js" type="text/javascript"></script>
+
+    <link href="scripts/miniui/themes/default/large-mode.css" rel="stylesheet"
+        type="text/css" />
+    <link href="scripts/miniui/themes/bootstrap/skin.css" rel="stylesheet" type="text/css" />
+    
+    
+    <style type="text/css">
+        
+    </style>
+<meta charset="UTF-8">
+<title>用户登录</title>
+<style>
+			body {
+				background: url(2.jfif) no-repeat center center;
+				background-size: cover;
+				/* 让背景图基于容器大小伸缩 */
+				background-attachment: fixed;
+				/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 此条属性必须设置否则可能无效*/
+				background-color: #CCCCCC;
+				/* 设置背景颜色，背景图加载过程中会显示背景色 */
+			}
+	div.dialog-bz {
+				width: 550px;
+				height: 300px;
+				margin: auto;
+				margin-top: 200px;
+				background-color: #ffffff63;
+				padding: 50px 50px 30px;
+				box-shadow: 10px 10px 15px black;
+				text-align: center;
+
+			}
+			.dialog-bz-btn {
+				text-decoration: none;
+				font-size: larger;
+				color: #1f4e5f;
+			}
+
+			.h2 {
+				font-family: Courier New;
+			}
+
+			#start {
+				width: 40px;
+				height: 40px;
+			}
+
+			a:hover {
+				background-color: #f4f7f7;
+				padding: 10px;
+			}
+			</style>
+</head>
+
+<style>
+	/*标签选择器*/
+	div{
+		height:30px;
+	}
+	/*类选择器*/
+	.content{
+		border:3px solid #2196f3;
+		width:239px;
+		height:103px;
+		margin:0 auto;
+/*		background-color:#9ea5de;*/
+		background: linear-gradient(#35b4df, #9c28b0);
+/*	padding-top:10px;*/
+		text-align:center
+	}
+	/*元素选择器*/
+	p{
+	text-align:center;
+	color:blue;
+	}
+</style>
+	
+<body>
+   <form action="LoginServlet" method="post">
+	<div class="dialog-bz">
+	<p>
+	易购（E-go）欢迎管理员${user.userno}进入！
+	</p>
+		<div>
+		请选择您想进行的操作<br><br><br>
+		 <a href="UserServlet" class="dialog-bz-btn"><b>用户列表</b></a><br><br>
+		 <a href="gsSearch.jsp" class="dialog-bz-btn"><b>商品列表</b></a>
+		</div>
+	</div>	
+   </form>
+
+</body>
+</html>
